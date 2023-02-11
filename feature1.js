@@ -1,10 +1,10 @@
-greetMe = function (name = null, isFormal = true) {
+greetMe = function(name, isFormal = true) {
     let greeting;
-    if (isFormal = true) {
-        greeting = `Good day, ${name}!`;
-        return greeting
+    if (isFormal = false) {
+        console.log(`Hi ${name}!`);
     } else {
-        greeting = `Hi ${name}!`;
-        return greeting
+        console.log(`Good day, ${name}!`);
     }
 }
+
+console.log(greetMe('Alex', ))
